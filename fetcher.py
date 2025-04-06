@@ -5,7 +5,7 @@ import os
 MIN_VIEWS = 20000
 BROWSER = r"C:\Program Files\BraveSoftware\Brave-Browser-Nightly\Application\brave.exe"
 
-ms_token = "trZlcuIhwfUxwqt6GOD_CRzoC229XlsAUiG6en5eh8M1YaDgg0Q3Y4RmK5mlhqDb--wskqS_uwRSYpuvnDHyVs4TKwQsEcWOoCOLzoduy3Dcwuf4lJoT8v2Mpqxr77A6yFznNPvHRMw73tN0Y4eg_qhc"
+ms_token = "anyway it's expired"
 
 async def get_videos_with_sound(sound_id, cycles=5):
     async with TikTokApi() as api:
