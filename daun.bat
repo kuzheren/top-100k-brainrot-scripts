@@ -1,0 +1,1 @@
+for /F "tokens=*" %%A in (work/numbers.txt) do ffmpeg -i "%%A" -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -c:v copy -c:a aac -shortest "numbers_output\%%~nA_audio.mp4"

@@ -1,0 +1,1 @@
+(for %%i in ("F:\Python\TikTokTest\temp_ts\*.ts") do @echo file '%%~fi') > concat.txt && ffmpeg -f concat -safe 0 -i concat.txt -c copy output.mp4

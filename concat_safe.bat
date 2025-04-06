@@ -1,0 +1,1 @@
+ffmpeg -f concat -safe 0 -i work/list_safe_5_valid_FINAL.txt -c copy output_safe.mp4
