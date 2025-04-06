@@ -5,7 +5,7 @@ import os
 MIN_VIEWS = 20000
 BROWSER = r"C:\Program Files\BraveSoftware\Brave-Browser-Nightly\Application\brave.exe"
 
-ms_token = "zNjoEDxXTbWnaVpjEnRci8G1Gc549sWlIfzc2xSTuJgJ0rCVRCWbtSQw--h63l4xPCoMDLU98ojUZ7_PScTPxQtSSiW2pXL9LXKOXc-QmMT14cnEL5S8M7NY2tApLQkB18sME8yFcQPCnPynprf-kwmeFQ=="
+ms_token = "expired"
 
 async def get_hashtag_videos(hashtag, cycles=5):
     async with TikTokApi() as api:
